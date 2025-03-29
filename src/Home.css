@@ -1,0 +1,144 @@
+.container {
+    background-color: #070939;
+    flex-direction: column;
+    align-items: stretch;
+    padding-bottom: 33px;
+    padding-right: 28px;
+    display: flex;
+    overflow: hidden;
+    opacity: 0;
+    animation: fadeIn 0.8s ease-out forwards;
+  }
+  
+  .banner {
+    background-color: #0a0d4e;
+  height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    box-shadow: 2px 3px 4px #00000052;
+  } 
+  
+  .navigationBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: #0a0d4e;
+    box-shadow: 2px 3px 4px #00000052;
+  }
+  
+  .navList {
+    list-style: none;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .navItem {
+    margin-right: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .navItem:hover {
+      background-color: #b7b8d5;
+      color: #ccc;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      transform: translateY(-2px);
+      cursor: pointer;
+      color: #070939;
+      border-radius: 20px;
+  }
+  
+  .navLink {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .navLink:hover {
+    color: #ccc;
+  }
+  
+  .contentWrapper {
+    align-self: end;
+    width: 100%;
+    max-width: 1286px;
+    margin-top: 55px;
+  }
+  
+  .heroSection {
+    margin-top: 55px;
+  }
+  
+  .twoColumnLayout {
+    gap: 20px;
+    display: flex;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .leftColumn {
+    flex-direction: column;
+    align-items: stretch;
+    width: 50%;
+    margin-left: 0;
+    line-height: normal;
+    display: flex;
+  }
+  
+  .textContent {
+    color: #fff;
+    margin-top: 59px;
+    font-family: Roboto, -apple-system, Helvetica, sans-serif;
+    font-weight: 400;
+    opacity: 0;
+    animation: fadeIn 0.8s ease-out 0.2s forwards;
+  }
+  
+  .title {
+    font-size: 100px;
+  }
+  
+  .description {
+    margin-top: 46px;
+    font-size: 27px;
+    line-height: 47px;
+  }
+  
+  .rightColumn {
+    flex-direction: column;
+    align-items: stretch;
+    width: 50%;
+    margin-left: 20px;
+    line-height: normal;
+    display: flex;
+  }
+  
+  .featureImage {
+    aspect-ratio: 0.97;
+    object-fit: contain;
+    object-position: center;
+    flex-grow: 1;
+    width: 100%;
+    opacity: 0;
+    animation: fadeIn 0.8s ease-out 0.4s forwards;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
