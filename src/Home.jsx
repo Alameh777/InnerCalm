@@ -1,8 +1,8 @@
-"use client";
+
 import * as React from "react";
 import { useEffect, useState } from "react";
 import "./Home.css";
-import {link} from "react-router-dom";
+import {Link} from 'react-router-dom';
 
 function Home() {
   const [isVisible, setIsVisible] = useState(false);
@@ -26,7 +26,7 @@ function Home() {
                 Self Service
             </li>
             <li className="navItem">
-               <link to="/signup">Sign Up</link> 
+               <Link to="/signup">Sign Up</Link> 
             </li>
           </ul>
         </nav>
