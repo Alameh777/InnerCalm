@@ -1,11 +1,9 @@
-/* Home.css */
-
-/* Base styles */
 .container {
   background-color: #070939;
   flex-direction: column;
   align-items: stretch;
-  padding: 20px 20px; /* reduced padding */
+  padding-bottom: 33px;
+  padding-right: 28px;
   display: flex;
   overflow: hidden;
   opacity: 0;
@@ -14,14 +12,14 @@
 
 .banner {
   background-color: #0a0d4e;
-  height: 40px;
+height: 40px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 15px; /* reduced padding */
+  padding: 20px;
   width: 100%;
   box-shadow: 2px 3px 4px #00000052;
-}
+} 
 
 .navigationBar {
   display: flex;
@@ -41,23 +39,23 @@
 }
 
 .navItem {
-  margin-right: 10px; /* reduced margin */
+  margin-right: 20px;
   color: rgb(255, 255, 255);
-  font-size: 16px; /* reduced font size */
+  font-size: 20px;
   font-weight: bold;
   text-align: center;
-  padding: 8px 16px; /* reduced padding */
+  padding: 10px 20px;
   transition: background-color 0.3s ease-in-out;
 }
 
 .navItem:hover {
-  background-color: #b7b8d5;
-  color: #ccc;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  transform: translateY(-2px);
-  cursor: pointer;
-  color: #070939;
-  border-radius: 20px;
+    background-color: #b7b8d5;
+    color: #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+    cursor: pointer;
+    color: #070939;
+    border-radius: 20px;
 }
 
 .navLink {
@@ -73,12 +71,12 @@
 .contentWrapper {
   align-self: end;
   width: 100%;
-  max-width: 100%; /* adjusted width */
-  margin-top: 30px; /* reduced margin-top */
+  max-width: 1286px;
+  margin-top: 55px;
 }
 
 .heroSection {
-  margin-top: 30px; /* reduced margin-top */
+  margin-top: 55px;
 }
 
 .twoColumnLayout {
@@ -98,28 +96,28 @@
 
 .textContent {
   color: #fff;
-  margin-top: 30px; /* reduced margin-top */
-  font-family:  system-ui, Avenir, Helvetica, Arial, sans-serif;;
+  margin-top: 59px;
+  font-family: Roboto, -apple-system, Helvetica, sans-serif;
   font-weight: 400;
   opacity: 0;
   animation: fadeIn 0.8s ease-out 0.2s forwards;
 }
 
 .title {
-  font-size: 50px; /* reduced font size */
+  font-size: 100px;
 }
 
 .description {
-  margin-top: 20px; /* reduced margin-top */
-  font-size: 18px; /* reduced font size */
-  line-height: 30px;
+  margin-top: 46px;
+  font-size: 27px;
+  line-height: 47px;
 }
 
 .rightColumn {
   flex-direction: column;
   align-items: stretch;
   width: 50%;
-  margin-left: 10px; /* reduced margin */
+  margin-left: 20px;
   line-height: normal;
   display: flex;
 }

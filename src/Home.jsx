@@ -1,8 +1,8 @@
-
+"use client";
 import * as React from "react";
 import { useEffect, useState } from "react";
 import "./Home.css";
-import {Link} from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 function Home() {
   const [isVisible, setIsVisible] = useState(false);
@@ -55,6 +55,7 @@ function Home() {
         </section>
       </div>
     </main>
+    // 
   );
 }
 

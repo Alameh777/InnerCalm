@@ -1,68 +1,68 @@
-/* index.css */
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
 
-/* Media Queries for Responsiveness */
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
 
-/* Small screens (mobile) */
-@media (max-width: 600px) {
-  .container {
-    padding: 10px 10px;
-  }
-
-  .navigationBar {
-    padding: 10px 5px;
-  }
-
-  .navItem {
-    font-size: 14px; /* smaller font size */
-    padding: 6px 12px; /* smaller padding */
-  }
-
-  .heroSection {
-    margin-top: 20px; /* smaller margin-top */
-  }
-
-  .leftColumn,
-  .rightColumn {
-    width: 100%; /* stack the columns on mobile */
-    margin-left: 0;
-  }
-
-  .title {
-    font-size: 35px; /* smaller title */
-  }
-
-  .description {
-    font-size: 16px; /* smaller description */
-  }
-
-  .featureImage {
-    width: 80%; /* smaller image */
-  }
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-/* Medium screens (tablet) */
-@media (min-width: 601px) and (max-width: 1024px) {
-  .container {
-    padding: 15px;
-  }
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
 
-  .navigationBar {
-    padding: 15px;
-  }
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
 
-  .navItem {
-    font-size: 16px; /* slightly smaller */
-  }
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
 
-  .title {
-    font-size: 45px; /* slightly smaller title */
-  }
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
 
-  .description {
-    font-size: 18px; /* slightly smaller description */
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
   }
-
-  .featureImage {
-    width: 90%; /* slightly smaller image */
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
   }
 }
